@@ -1,19 +1,4 @@
-### Hi there 👋
-
-<!--
-**speae/speae** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🤔
 
 web-crawling 1부
 =====================================================================================================================================
@@ -25,8 +10,11 @@ web-crawling 1부
  이를테면, 
  
   from selenium import webdriver
+  
   browser = webdriver.Chrome('C:/playwithdata/chromedriver.exe')
+  
   url = "http://search.danawa.com/dsearch.php?query=무선청소기&tab=main"
+  
   driver.get(url)
 
 위 코드처럼 browser와 driver 각기 다른 변수명을 사용하여 독자들에 혼란을 주고 있다는 것이다. 위의 예시를 단순 오타로 봐야 할지 다른 생각이 있어서 다른 객체를 사용했는데 그에 대한 설명이 부족했다고 봐야 할지 판단할 수 없었지만, 필자는 아무리 생각해봐도 굳이 다른 객체를 쓸 이유가 없다고 판단하고 오타의 예시로 들었다.
