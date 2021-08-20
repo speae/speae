@@ -9,17 +9,14 @@ web-crawling 1부
   '직장인을 위한 데이터분석 실무'는 분명 웹 크롤링에 입문하는 사람들에게 좋은 책임은 확실하다. 단 하나, 아쉬운 점은 거슬리는 오타와 설명이 필요한 부분들은 생략됐다는 점이다.
  이를테면, 
  
- This is a normal paragraph:
+ ```python
   
   from selenium import webdriver
-  
   browser = webdriver.Chrome('C:/playwithdata/chromedriver.exe')
-  
   url = "http://search.danawa.com/dsearch.php?query=무선청소기&tab=main"  
-  
   driver.get(url)
 
-end code block.
+```
 
 위 코드처럼 browser와 driver 각기 다른 변수명을 사용하여 독자들에 혼란을 주고 있다는 것이다. 위의 예시를 단순 오타로 봐야 할지 다른 생각이 있어서 다른 객체를 사용했는데 그에 대한 설명이 부족했다고 봐야 할지 판단할 수 없었지만, 필자는 아무리 생각해봐도 굳이 다른 객체를 쓸 이유가 없다고 판단하고 오타의 예시로 들었다.
 
