@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+![prod_item_1](https://user-images.githubusercontent.com/43712685/130160921-5961a5ab-a664-4ff8-99e6-dd66115201d4.png)
+web-crawling
+직장인을 위한 데이터분석 실무
