@@ -101,17 +101,13 @@ def get_prod_items(prod_items):
   none_data라는 배열을 만들어서 그 안에 None 데이터들을 모아 넣을 것이다. 이렇게 되면 함수 내에서만 none_data에 None type의 데이터들만이 들어가는걸 반복하고 어느 곳에서도 쓰이지 않고 끝날 것이다.
 
 ![prod_item_1](https://user-images.githubusercontent.com/43712685/130160921-5961a5ab-a664-4ff8-99e6-dd66115201d4.png)
-
 <prod_item ① : p 태그의 class가 있는 상품1>
 
 ![prod_item_2](https://user-images.githubusercontent.com/43712685/130225210-c2b51eef-8594-44b7-9770-29d53e509f54.png)
-
 <prod_item ② : p 태그의 class가 있는 상품2>
 
 ![spec_list](https://user-images.githubusercontent.com/43712685/130225288-7047895b-8ba8-4502-a323-bd19677aaba2.png)
-
 <spec_list : div 태그의 class가 있는 상품>
 
 ![prod_item_None](https://user-images.githubusercontent.com/43712685/130225559-59740ce8-2702-4138-9f04-8903157e1599.png)
-
 <prod_item is None : p 태그의 class인 prod_name이 존재하지만, spec_list 등이 없는 쓸모없는 정보>
