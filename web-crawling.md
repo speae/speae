@@ -12,8 +12,11 @@ web-crawling 1부
  This is a normal paragraph:
   
   from selenium import webdriver
+  
   browser = webdriver.Chrome('C:/playwithdata/chromedriver.exe')
+  
   url = "http://search.danawa.com/dsearch.php?query=무선청소기&tab=main"  
+  
   driver.get(url)
 
 end code block.
