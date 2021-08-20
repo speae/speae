@@ -110,4 +110,5 @@ def get_prod_items(prod_items):
 <spec_list : div 태그의 class가 있는 상품>
 
 ![prod_item_None](https://user-images.githubusercontent.com/43712685/130225559-59740ce8-2702-4138-9f04-8903157e1599.png)
+
 <prod_item is None : p 태그의 class인 prod_name이 존재하지만, spec_list 등이 없는 쓸모없는 정보>
